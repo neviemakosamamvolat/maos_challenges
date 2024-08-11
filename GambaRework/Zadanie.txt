@@ -1,0 +1,2 @@
+Napiste program (hru) na principe case openeru. Pomocou konzole si uzivatel otvara chesty, chesta dropuje odmeny s roznou raritou, kazda rarita ma nejaky range coinov (ktore hrac zbiera) napr. common 10-20 coins.
+Hrac si moze prezerat doteraz ziskane odmeny, (moze zoradovat aj podla najcennsjeich, aj podla casu ziskania, aj podla ziskanych minci) ich raritu a pocet coinov ktore z nich ziskal. Cim vyssia rarita, tym mensia sanca na drop.
