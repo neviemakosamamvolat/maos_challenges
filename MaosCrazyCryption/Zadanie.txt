@@ -1,0 +1,12 @@
+Zadanie:
+Vasou ulohou bude spravit funkcny FileManager, teda "helper" pre komunikaciu so subormi, teda zapisovanie do nich, citanie z nich... Pre citanie z nich mozete pouzit https://docs.oracle.com/javase/8/docs/api/java/io/FileReader.html a pre zapisovanie https://docs.oracle.com/javase/8/docs/api/java/io/FileWriter.html
+
+Ciele tohto zadanie:
+(Static)
+FileManager#openAndGetFile(String fileName) -> Otvori subor a returne instanciu pre pracu s nim. (Nezabudnite na exception handling)
+FileManager#createAndGetFile(String fileName) -> Vytvori subor a returne instanciu pre pracu s nim.
+(Instance)
+FileManager#write(String text / int c / char c / int i......) -> Vpise do suboru text.
+FileManager#writeAll(String[] text / List<String> text......) -> Vpise do suboru zoznam Stringov (mozete oddelit newlinom ak chcete)
+FileManager#readAll() -> Returne cely text z filu (Moze v string arr alebo v nejakom liste...)
+FileManager#read(int i) -> Returne text na danom riadku
